@@ -1,2 +1,0 @@
-# Tareas
-print("hola mundo")
