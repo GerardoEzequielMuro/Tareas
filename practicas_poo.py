@@ -1,36 +1,3 @@
-
-
-
-"""class Vehiculo:
-
-    ruedas = 4
-
-    def __init__(self,color):
-        self.color = color
-
-    def __str__(self):
-        return (f"El color del auto es {self.color} y la cantidad de ruedas son {self.ruedas}")
-
-
-class Coche(Vehiculo):
-
-    def __init__(self, color, velocidad, cilindrada):
-        super().__init__(color)
-        self.velocidad = velocidad
-        self.cilindrada = cilindrada
-
-    def __str__(self):
-        return super().__str__() + (f", La velocidad es {self.velocidad} y la cilindrada es {self.cilindrada}")
-
-
-auto1 = Coche("rojo",23,2)
-print(auto1.__str__())"""
-
-
-
-
-
-
 class Vehiculo():
     
     def __init__(self,nombre,color,ruedas):
