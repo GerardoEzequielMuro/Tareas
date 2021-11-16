@@ -1,4 +1,3 @@
-
 class Triangulo:
     
     def __init__(self,lado1=None,lado2=None,lado3=None):
@@ -14,7 +13,7 @@ class Triangulo:
     
     def tipo(self):
         if self.lado1 == self.lado2 and self.lado2 == self.lado3:
-            print("Es un triangulo equilatero")
+            print("Es un triangulo equilátero")
         elif self.lado1 == self.lado2 or self.lado1 == self.lado3:
             print("Es un triangulo isoceles")    
         else:
@@ -22,8 +21,6 @@ class Triangulo:
       
     
         
-
-
 
 #########################
 triangulo1 = Triangulo(122,11,12)
